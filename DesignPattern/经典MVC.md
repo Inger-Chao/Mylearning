@@ -15,5 +15,7 @@ Model-View-Controller
 * Layout中的xml文件相当于View层
 * 可以是Values里的xml文件，也可以是Java代码，类似repository类
 * Controller层则是对外部世界响应。例如点击事件等
+
 ##缺点
+
  View和Model是相互可以访问的，耦合性较高。因此衍生除了MVP和MVVM两种框架
