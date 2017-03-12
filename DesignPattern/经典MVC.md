@@ -5,7 +5,7 @@ Model-View-Controller
 * Controller:业务逻辑
 
 ##特点
-![](http://image.beekka.com/blog/2015/bg2015020108.png)
+![MVC](http://image.beekka.com/blog/2015/bg2015020108.png)
 * 用户可以向View发送指令，再由View直接要求Model改变状态
 * 用户也可以直接向Controller发送指令，再由Controller发送给View
 * Controller起到事件路由的作用
