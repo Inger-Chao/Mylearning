@@ -18,4 +18,4 @@ Model-View-Controller
 
 ##缺点
 
- View和Model是相互可以访问的，耦合性较高。因此衍生除了MVP和MVVM两种框架
+ View和Model是相互可以访问的，耦合性较高。因此衍生出了[MVP和MVVM](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/MVP%E5%92%8CMVVM%E6%A1%86%E6%9E%B6.md)两种框架
