@@ -5,7 +5,7 @@ Model-View-Presenter
 * View:用户界面
 * Model:数据存储
 
-##特点
+## 特点
 
 ![MVP](http://image.beekka.com/blog/2015/bg2015020109.png)
 
@@ -13,7 +13,7 @@ Model-View-Presenter
 * Model和View分离
 * Presenter作为View和Model的桥梁
 
-##Android中的MVP
+## Android中的MVP
 * 把Activity当作了View层
 * View和Presenter主要通过接口的方式连接
 
