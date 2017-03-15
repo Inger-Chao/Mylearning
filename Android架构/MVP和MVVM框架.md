@@ -33,5 +33,5 @@ Model-ViewModel-Model
 
 ![MVVM](http://image.beekka.com/blog/2015/bg2015020110.png)
 
-##特点
+## 特点
 两者间有任何一方变化便会反应到另一方上。Model的数据变化后会自动更新View，View的修改也会直接导致数据的变更。
