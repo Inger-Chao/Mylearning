@@ -2,7 +2,7 @@
 ============
 ## Java
 
-* [内部类](https://github.com/Joki-memeda/MyLearning/blob/master/Java/n内部类.md)
+* [内部类](https://github.com/Joki-memeda/MyLearning/blob/master/Java/内部类.md)
 * [异常类](https://github.com/Joki-memeda/MyLearning/blob/master/Java/异常类.md)
 ## 设计模式
 
