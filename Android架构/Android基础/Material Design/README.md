@@ -6,7 +6,7 @@ Material Design是google在2048在I/O大会上重磅推出的一套全新的视�
     * NavigationView `定制滑动菜单页面`
     * CircleImageView `图片圆形化`
 * 悬浮按钮和可交互提示
-    * FloatingActionButton `悬浮按钮`
+    * FloatingActionButton `悬浮按钮`
     * SnackBar `更加先进的提示工具`
     * CoordinatorLayout `加强的FrameLayout`
 * 卡片式布局
