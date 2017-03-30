@@ -12,7 +12,7 @@ Material Design是google在2048在I/O大会上重磅推出的一套全新的视�
 * 卡片式布局
     * CardView `卡片式布局`
     * AppBarLayout `解决覆盖问题`
-    * 下拉刷新
+    * SwipeRefreshLayout `下拉刷新`
 * 可折叠式标题栏
     * CollapsingToolbarLayout `丰富ToolBar效果`
     * 充分利用系统状态栏控件
