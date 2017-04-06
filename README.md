@@ -34,3 +34,5 @@
 ## MVC&MVP&MVVM
 * [MVC](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/%E7%BB%8F%E5%85%B8MVC.md)
 * [MVP和MVVM](https://github.com/Joki-memeda/MyLearning/blob/master/Android%E6%9E%B6%E6%9E%84/MVP%E5%92%8CMVVM%E6%A1%86%E6%9E%B6.md)
+## Others
+* [UML类图的阅读](https://github.com/Joki-memeda/MyLearning/blob/master/Others/UML%E7%B1%BB%E5%9B%BE%E7%9A%84%E9%98%85%E8%AF%BB.md)
