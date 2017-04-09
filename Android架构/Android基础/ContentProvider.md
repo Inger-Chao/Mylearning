@@ -1,4 +1,4 @@
-# Content Privider(内容提供器)
+# Content Provider(内容提供器)
 
 * 主要应用于在不通的应用程序间的实现数据共享的功能
 
