@@ -35,9 +35,12 @@ File类的对象主要用来获取文件和目录本身的一些信息，例如�
 
 
 ### 文件流
->FileInputStream是InputStream的子类，实现了抽象方法read()，并将流的数据源定义为文件。 
+>FileInputStream是InputStream的子类，实现了抽象方法read()，并将流的数据源定义为文件。
+
 >FileOutputStream是OutputStream的子类，实现了抽象方法write()，并将流的数据目标定义为磁盘文件。
+
 >FileReader类是Reader的子类，并将流的数据源定义为文件。
+
 >FileWriter是Writer的子类，并将流的数据目标定义为磁盘文件。
 
 
