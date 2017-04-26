@@ -4,6 +4,10 @@
 
 * [内部类](https://github.com/Joki-memeda/MyLearning/blob/master/Java/内部类.md)
 * [异常类](https://github.com/Joki-memeda/MyLearning/blob/master/Java/异常类.md)
+* [IOStream](https://github.com/Joki-memeda/MyLearning/blob/master/Java/IOStream.md)
+* [JVM](https://github.com/Joki-memeda/MyLearning/blob/master/Java/IOStream.md)
+    * [Java内存区域](https://github.com/Joki-memeda/MyLearning/blob/master/Java/JVM/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F.md)
+
 ### 设计模式
 
 * [单例模式](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
@@ -11,6 +15,7 @@
 * [观察者模式](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/Observer模式.md)
 * [策略模式](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.md)
 * [状态模式](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/状态模式.md)
+* [装饰者模式](https://github.com/Joki-memeda/MyLearning/tree/master/DesignPattern/Decorator%20Pattern)
 ### Android
 
 * [Activity](https://github.com/Joki-memeda/MyLearning/blob/master/Android%E6%9E%B6%E6%9E%84/Activity)
