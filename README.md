@@ -6,7 +6,6 @@
 * [异常类](https://github.com/Joki-memeda/MyLearning/blob/master/Java/异常类.md)
 * [IOStream](https://github.com/Joki-memeda/MyLearning/blob/master/Java/IOStream.md)
 * [JVM](https://github.com/Joki-memeda/MyLearning/blob/master/Java/IOStream.md)
-     
      * [Java内存区域](https://github.com/Joki-memeda/MyLearning/blob/master/Java/JVM/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F.md)
 
 ### 设计模式
