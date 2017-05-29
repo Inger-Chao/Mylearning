@@ -46,14 +46,21 @@ __传输控制协议__ 是一种面向连接的、可靠的基于字节流的传
 ![这里写图片描述](http://img.blog.csdn.net/20170529155549607?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSm9raTIzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 #### 建立：三次握手
 >A->B发送请求报文段：SYN = 1，SEQ =  x;
+
 >B->A发送响应报文段：SYN = 1，ACK = x+1，SEQ = y;
+
 >A->B发送确认报文段：SEQ = x+1 , ACK = y+1;
 
 ####释放：四次握手
+
 数据传输结束后，任何一方都可以发出释放连接请求。图中加入A向B发起：
+
 >A->B发送请求释放报文段：FIN = 1，SEQ = x;//x=已经发送数据的最后一个字节序号+1
+
 >B->A发送确认报文段：ACK= x+1;
 
 此时A->B的连接已经释放，连接处于半关闭状态，B不再接受A发来的数据。但是B还可以向A发送数据，A收到B的请求后依然可以做出响应。
+
 >B->A发送请求释放报文段：FIN = 1,SEQ = y,ACK = x+1;
+
 >A->B发送确认报文段：ACK = y+1;
