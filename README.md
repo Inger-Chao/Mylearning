@@ -13,10 +13,8 @@
 * 创建型模式
     * [单例模式](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
     * [Builder模式](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/Builder%E6%A8%A1%E5%BC%8F.md)
-
 * 结构型模式
     * [装饰者模式](https://github.com/Joki-memeda/MyLearning/tree/master/DesignPattern/Decorator%20Pattern)
-
 * 行为型模式
     * [观察者模式](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/Observer模式.md)
     * [策略模式](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.md)
