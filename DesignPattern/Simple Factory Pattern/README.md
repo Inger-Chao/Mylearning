@@ -43,7 +43,8 @@ public class ConcreteProductA extends Product {
 ```
 
 创建简单工厂模式的核心工厂类，工厂类提供一个静态工厂方法供客户端使用，根据传入参数的不同创建不同的产品对象，典型代码：
-``java
+
+```java
 public class Factory {
     //静态工厂方法
     public static Product getProduct(String arg){
@@ -59,7 +60,9 @@ public class Factory {
     }
 }
 ```
+
 客户端调用代码如下
+
 ```java
 public class Client {
     public static void main(String[] args){
