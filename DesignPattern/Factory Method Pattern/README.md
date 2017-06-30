@@ -86,4 +86,4 @@ public class Client {
 ```
 
 ---------------------------------------------------------------------
-参考资料：(https://gof.quanke.name)、《Android设计模式》
+参考资料：https://gof.quanke.name 、《Android设计模式》
