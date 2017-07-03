@@ -54,3 +54,73 @@ JAVA是面向对象的语言，所有类的对象都是Class的实例，当我�
         Class superClass = aClass.getSuperclass();//得到aClass的父类
 ```
 父类也是一个class对象，也可以进行反射操作。
+
+***接口***
+```java
+Class<?> interfaces[] = aClass.getInterfaces();
+        System.out.println(interfaces[0]);
+```
+运行结果：
+```
+interface reflection.InterA
+```
+
+***构造函数***
+
+通过Class对象获取构造函数Constructor类的实例：
+```Java
+        Constructor<?> constructors[] = aClass.getConstructors();//获取构造方法
+        for (Constructor i : constructors){
+            Class<?> parameterTypes[] = i.getParameterTypes();
+            System.out.println("constructor: "+i);//输出构造方法
+            for (Class j : parameterTypes){
+                System.out.println("parameterType: "+j);//输出参数类型
+            }
+        }
+```
+运行结果：
+```
+    constructor: public reflection.Example(java.lang.String,int)
+    parameterType: class java.lang.String
+    parameterType: int
+    constructor: public reflection.Example(int)
+    parameterType: int
+    constructor: public reflection.Example(java.lang.String)
+    parameterType: class java.lang.String
+    constructor: public reflection.Example()
+```
+
+可以利用Constructor对象实例化一个类：
+```java
+ try {
+            Example example1 = (Example) constructors[0].newInstance();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+```
+
+***Method对象***
+
+```java
+Method[] methods = aClass.getMethods();//获得Example类中的所有public方法
+```
+可以通过getMethod获取具体的方法，第一个参数为方法名，第二个为参数类型。
+```java
+        try {
+            Method methodSetStr = aClass.getMethod("setStr",new Class[]{String.class});
+            System.out.println(methodSetStr.getReturnType());//输出返回类型
+            System.out.println(methodSetStr.getParameterTypes()[0]);//输出第一个参数类型
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        }
+
+```
+运行结果：
+```
+void
+class java.lang.String
+```
