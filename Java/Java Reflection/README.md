@@ -124,3 +124,100 @@ Method[] methods = aClass.getMethods();//获得Example类中的所有public方�
 void
 class java.lang.String
 ```
+还可以通过Method对象来调用一个方法
+```java
+            Object o = aClass.newInstance();
+            Object returnValue = methodSetStr.invoke(o,"nihaoya");
+            System.out.println("returnValue: " + returnValue);
+```
+运行结果
+```
+returnValue: null
+```
+
+***成员变量***
+
+可以通过反射机制访问类的成员变量，代码如下
+```java
+        /**
+         * 可以获得类的成员变量
+         */
+        try {
+            Field field = aClass.getField("d");//只能获得public成员变量
+            System.out.println("publicField" + field);
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+        Field[] privateFields = aClass.getDeclaredFields();//获得所有成员变量，包括私有成员变量
+        for (Field i : privateFields){
+            System.out.println("allFields: " + i);
+            i.setAccessible(true);//这行代码会关闭i的反射访问检查。
+        }
+```
+运行结果：
+```
+publicField: public double reflection.Example.d
+allFields: public double reflection.Example.d
+allFields: private java.lang.String reflection.Example.str
+allFields: private int reflection.Example.x
+```
+***泛型***
+1、声明一个需要被参数化（parameterizable）的类/接口。
+2、使用一个参数化类。
+获知他们具体的参数化类型
+在Example中定义一个List<String>类型的集合，并生成getter和setter。
+
+```java
+        try {
+            Method methodGetList = aClass.getMethod("getStringList",null);
+            Type returnType = methodGetList.getGenericReturnType();
+
+            if (returnType instanceof ParameterizedType){
+                ParameterizedType type = (ParameterizedType) returnType;
+                Type[] typeArguments = type.getActualTypeArguments();
+                for(Type typeArgument : typeArguments){
+                    Class typeArgClass = (Class) typeArgument;
+                    System.out.println("typeArgClass = " + typeArgClass);
+                }
+            }
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        }
+```
+
+运行结果：
+```
+typeArgClass = class java.lang.String
+```
+可以知道返回类型是一个代表 java.lang.String 的 Class 类的实例
+
+```java
+       /**
+         * 获取参数泛型的参数类型
+         */
+        try {
+            Method methodSetList = aClass.getMethod("setStringList", List.class);
+
+            Type[] genericParameterTypes = methodSetList.getGenericParameterTypes();
+
+            for (Type i : genericParameterTypes){
+                if (i instanceof ParameterizedType){
+                    ParameterizedType type = (ParameterizedType) i;
+                    Type[] parameterTypes = type.getActualTypeArguments();
+                    for (Type parameterArgType : parameterTypes){
+                        Class parameterArgClass = (Class) parameterArgType;
+                        System.out.println("parameterArgClass = " + parameterArgClass);
+                    }
+                }
+            }
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        }
+```
+运行结果：
+```
+parameterArgClass = class java.lang.String
+```
+
+------------------------------------------------------------------------------------------------
+[源码](https://github.com/Joki-memeda/MyLearning/edit/master/Java/Java%20Reflection)
