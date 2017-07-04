@@ -6,7 +6,7 @@
 * [异常类](https://github.com/Joki-memeda/MyLearning/blob/master/Java/异常类.md)
 * [IOStream](https://github.com/Joki-memeda/MyLearning/blob/master/Java/IOStream.md)
 * [JVM](https://github.com/Joki-memeda/MyLearning/blob/master/Java/IOStream.md)
-     * [Java内存区域](https://github.com/Joki-memeda/MyLearning/blob/master/Java/JVM/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F.md)
+    * [Java内存区域](https://github.com/Joki-memeda/MyLearning/blob/master/Java/JVM/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F.md)
 * [JAVA Reflection](https://github.com/Joki-memeda/MyLearning/tree/master/Java/Java%20Reflection)
 
 ### 设计模式
@@ -14,7 +14,7 @@
 * 创建型模式
     * [单例模式](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
     * [Builder模式](https://github.com/Joki-memeda/MyLearning/blob/master/DesignPattern/Builder%E6%A8%A1%E5%BC%8F.md)
-    * [Simple factory pattern](https://github.com/Joki-memeda/MyLearning/tree/master/DesignPattern/Simple%20Factory%20Pattern)
+    * [Simple factory pattern](https://github.com/Joki-memeda/MyLearning/tree/master/DesignPattern/Simple%20Factory%20Pattern)
     * [Factory Method Pattern](https://github.com/Joki-memeda/MyLearning/tree/master/DesignPattern/Factory%20Method%20Pattern)
 * 结构型模式
     * [装饰者模式](https://github.com/Joki-memeda/MyLearning/tree/master/DesignPattern/Decorator%20Pattern)
