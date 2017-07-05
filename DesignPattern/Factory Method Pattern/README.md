@@ -84,6 +84,126 @@ public class Client {
     }
 }
 ```
+***反射***
+反射的方式可以更简洁的生产具体产品对象，只要在工厂方法的参数列表中传入一个Class类来决定是哪一个产品类。
+具体代码如下：
+```Java
+public abstract class Factory {
+    /**
+     * 抽象工厂方法
+     * @param clz 产品对象类类型
+     * @param <T> 
+     * @return 具体的产品对象
+     */
+    public abstract <T extends Product> T createProduct(Class<T> clz);
+}
+```
+具体工厂类：
+```java
+public class ConcreteFactory extends Factory {
+
+    @Override
+    public <T extends Product> T createProduct(Class<T> clz) {
+        Product product = null;
+        try {
+            product = (Product) Class.forName(clz.getName()).newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return (T) product;
+    }
+}
+```
+客户端调用代码：
+```java
+public class Client {
+    public static void main(String[] args){
+        Factory factory = new ConcreteFactory();
+        Product product = factory.createProduct(ConcreteProductA.class);
+        product.method();
+    }
+}
+```
+
+### 简单例子
+
+使用工厂方法模式设计一个程序来读取各种不同类型的图片格式，针对每一种图片格式都设计一个图片读取器，如GIF图片读取器用于读取GIF格式的图片、JPG图片读取器用于读取JPG格式的图片。需充分考虑系统的灵活性和可扩展性。
+
+先写出图片读取器的抽象方法：
+```java
+public abstract class PicReader {
+    /**
+     * 图片读取器的抽象方法
+     */
+    public abstract void reader();
+}
+```
+然后是两个具体图片读取器：
+```java
+public class GifReader extends PicReader{
+    @Override
+    public void reader() {
+        System.out.println("This is a gif picture！");
+    }
+}
+
+public class JpgReader extends PicReader {
+    @Override
+    public void reader() {
+        System.out.println("This is a jpg picture");
+    }
+}
+```
+抽象工厂类：
+```java
+public abstract class ReaderFactory {
+    /**
+     * 图片读取器的工厂方法
+     * @param clz
+     * @param <T>
+     * @return
+     */
+    public abstract <T extends PicReader> T createReader(Class<T> clz);
+}
+```
+具体的图片读取工厂：
+```java
+public class PicReaderFactory extends ReaderFactory {
+    @Override
+    public <T extends PicReader> T createReader(Class<T> clz) {
+        PicReader reader = null;
+        try {
+            reader = (PicReader) Class.forName(clz.getName()).newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return (T) reader;
+    }
+}
+```
+客户端调用代码：
+```java
+public class Client {
+    public static void main(String[] args){
+        //实例化一个读取图片的工厂对象
+        ReaderFactory readerFactory = new PicReaderFactory();
+
+        //生产gif读取器并读取
+        GifReader gifReader = readerFactory.createReader(GifReader.class);
+        gifReader.reader();
+        //生产jpg读取器并读取
+        JpgReader jpgReader =  readerFactory.createReader(JpgReader.class);
+        jpgReader.reader();
+    }
+}
+```
+运行结果：
+```
+This is a gif picture！
+This is a jpg picture
+```
 
 ---------------------------------------------------------------------
 参考资料：https://gof.quanke.name 、《Android设计模式》
+
+[源码](https://github.com/Joki-memeda/MyLearning/edit/master/DesignPattern/Factory%20Method%20Pattern/)
