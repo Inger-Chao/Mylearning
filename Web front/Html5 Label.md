@@ -15,4 +15,4 @@
 `<p style="text/align=right>` 局部右对齐
 
 ----------------------------------------------------------------------------
-参考资料：![Web label大全](http://www.w3school.com.cn/tags/index.asp)
+参考资料：[Web label大全](http://www.w3school.com.cn/tags/index.asp)
