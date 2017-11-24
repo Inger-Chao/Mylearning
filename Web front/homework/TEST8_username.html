@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表单验证</title>
+</head>
+<body>
+<p>用户名:<input id="inputArea" type="text" height="100px" width="25px"/>
+</p>
+
+	<input id="check" type="button" value="检查" onClick="jiancha()"/>
+	<input id="reset" type="button" value="重置" onClick="reset()"/>
+
+<script type="text/javascript">
+	function jiancha(){
+		
+		var username=document.getElementById("inputArea").value.length;
+		if(username==0){
+			alert("用户名不能为空！");
+		}else if(username>20 || username<6){
+			alert("用户名长度必须>6并且<20");
+		}else{
+			alert("用户名可用！");
+		}
+	}
+	function reset(){
+		var username=document.getElementById("inputArea");
+		username.value="";
+	}
+</script>
+
+</body>
+</html>

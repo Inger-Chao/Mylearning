@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+<body>
+<div style="background: #1C6E1B;color: aliceblue;width: 300px;height: 150px;" align="center">
+	<font align="center" size="+2">课程成绩评定</font>
+	 <p align="center">课程成绩为<input id="score_stu" style="background: green ;border: 0px; color: white" type="text"></p>
+    <p align="cneter">成绩等级为<input id="leval_stu" style="background: green ;border: 0px; color: white "type="text" ></p>
+</div>
+<script>
+	var num = 0;
+	var leval = "";
+	num = prompt("请输入成绩：",0);
+	switch (parseInt(num/10)){
+        case 9:leav="优秀"
+		break;
+        case 8:leav="良好"
+		break;
+        case 7:leav="中等"
+		break;
+        case 6:leav = "及格"
+            break;
+        case 5:
+        case 4:
+        case 3:
+        case 2:
+        case 1:
+        case 0:
+            leav = "不及格"
+            break;
+        default:
+            alert("输入不合法")
+            break;
+    }
+    document.getElementById("score_stu").value = num
+    document.getElementById("leval_stu").value = leav
+	
+</script>
+</body>
+</html>

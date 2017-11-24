@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表单验证</title>
+</head>
+<body>
+<div style="padding-top: 100px;padding-left: 100px;" align="center">表单验证
+<div style="border: solid 2px #274ECB;height: 220px;width: 300px;">
+	<p align="center">用 户 名 ： <input type="text" id="username"/> </p>
+	<p align="center">密&nbsp;&nbsp;&nbsp;&nbsp;码&nbsp;： <input type="password" id="password"/> </p>
+	<p align="center">确认密码： <input type="password" id="confirm"/> </p>
+	<p align="center">电子邮件： <input type="text" id="email" /> </p>
+	<p align="center"> <input type="button" id="send" onClick="commit()" value="提交" />  
+	<input type="button" id="reset" onClick="reset()" value="重置" /> </p>
+</div>
+</div>
+<script type="text/javascript">
+	    function commit() {
+        var user_name = document.getElementById("username")
+            .value
+        var user_pass = document.getElementById("password")
+            .value
+        var  user_pass_confli = document.getElementById("confirm")
+            .value
+        var user_email = document.getElementById("email")
+            .value
+        if ( ""!== user_name && "" !== user_pass && ""!== user_email && ""!== user_pass_confli ){
+            if (user_name.length > 20){
+                if (user_pass_confli !== user_pass){
+                    alert("两次密码不相同")
+                }else {
+                    alert("提交成功")
+                }
+            }else {
+                alert("用户名的长度需要大于20")
+            }
+        }else {
+            alert("请先完成表单")
+        }
+        
+    }
+	function reset(){
+
+		 if(confirm("确定要清空数据吗？")){
+			 document.getElementById("username").value = ""
+        document.getElementById("password").value = ""
+        document.getElementById("confirm").value = ""
+        document.getElementById("eamil").value = ""
+		 }
+	}
+</script>
+</body>
+</html>

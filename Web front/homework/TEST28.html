@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Random,Sum</title>
+</head>
+<body>
+<h1>计算n个随机2位整数的和</h1>
+<input id="num" style="border: 0px; color: black ;width: 20px" type="text" disabled="true">个随机2位数整数&nbsp;&nbsp;<input
+        id="result" style="border: 0px; color: #000000" type="text" disabled="true"><br>
+<input id="num1" style="border: 0px; color: black ;width: 20px" type="text"
+       disabled="true">个随机2位数整数的和为&nbsp;&nbsp;<input id="sum" style="border: 0px; color: #000000" type="text"
+                                                     disabled="true"><br>
+<script>
+	var num = prompt("你想让几个随机数相加：");
+	var sum = 0;
+	var arr = new Array(num);
+	var i = 0;
+	var result = "";
+	document.getElementById("num").value = num
+    document.getElementById("num1").value = num
+	while(num!=0){
+		arr[i] = (parseInt(Math.random()*(99-10)+10));
+		sum += arr[i];
+		i++;
+		num--;
+		result = arr.join(" ")
+	}
+    document.getElementById("result").value = result
+    document.getElementById("sum").value = sum
+	
+	
+</script>
+</body>
+</html>

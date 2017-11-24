@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+<body>
+<h4>计算N！</h4>
+<p><input type="text"  style="width: 20px;background: white;border: 0" disabled="true" id="n" />!=
+<input type="text" id="result" disabled="true" style="width: 100px;background: white;border: 0" /></p>
+<script>
+	var sum=1;
+	var i=1;
+	var n = parseInt(Math.random()*(9-1)+1);
+	document.getElementById("n").value=n;
+	for(i=1;i<=n;i++){
+		sum *= i;
+	}
+	document.getElementById("result").value=sum;
+</script>
+</body>
+</html>

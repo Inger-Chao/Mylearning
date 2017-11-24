@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+<body>
+<h2>计算3+6+9+…+36的和</h2>
+<p>参与运算的数：
+<input style="background: #EDEDED;border: 0px; color: black;width: 250px" type="text" disabled="true" id="num" />=
+<input style="background: #EDEDED;border: 0px; color: black;width: 30px" type="text" disabled="true" id="sum" />
+</p>
+<script>
+	var n = 36/3;
+	var sum = 0;
+	var arr = new Array(n);
+	var num = "";
+	for(i = 0;i<n;i++){
+		arr[i]=(i+1)*3;
+		sum+=arr[i];
+		num = arr.join(" ")
+	}
+	document.getElementById("num").value=num
+	document.getElementById("sum").value=sum
+</script>
+</body>
+</html>

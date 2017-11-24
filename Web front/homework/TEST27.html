@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>教学信息反馈</title>
+</head>
+<body>
+<fieldset style="border: 1px #D4D6E7 solid;width: 300px">
+	<legend>教学信息反馈</legend>
+	<p align="center">
+		学号：&nbsp; <input type="text" id="number" /> </p>
+	<p align="center">	 姓名：&nbsp;<input type="text" id="name" /></p>
+	<p align="center">课程：&nbsp; 
+	<select id="major_select">
+		<option value="">请选择</option>
+        <option value="">Web前端开发技术</option>
+        <option value="">数据结构</option>
+        <option value="">Java</option>
+	</select>
+	</p>
+	<p align="center">教学反馈意见：</p>
+	<textarea rows="5" cols="40">请输入意见</textarea><br>
+	<p align="center"> 
+	<input type="button" value="提交" onClick="commit()"/>
+	<input type="button" value="重置" onClick="reset()"/>
+	</p>
+</fieldset>
+</body>
+</html>

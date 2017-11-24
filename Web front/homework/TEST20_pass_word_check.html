@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>密码验证</title>
+</head>
+
+<body>
+<script>
+    function check() {
+        if (document.getElementById("user_name").value !== "" && document.getElementById("user_pass").value !== ""){
+            alert(document.getElementById("user_pass").value)
+        }else if (document.getElementById("user_name").value !== ""){
+            alert("密码为空")
+        }else {
+            alert("用户名为空")
+        }
+    }
+    function reset() {
+        document.getElementById("user_name").value = ""
+        document.getElementById("user_pass").value = ""
+    }
+</script>
+    <fieldset style="width: 250px">
+        <legend>密码验证</legend>
+        用户名&nbsp;:&nbsp;<input type="text" id="user_name"><br>
+        密&nbsp;&nbsp;&nbsp;&nbsp;码&nbsp;:&nbsp;<input type="password" id="user_pass"><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="检查" onclick="check()">&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="重置" onclick="reset()">
+
+    </fieldset>
+
+</body>
+</html>

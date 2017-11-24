@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+	div{
+		background: #19841C;
+		color: aliceblue;
+		width: 350px;
+		height: 150px;
+		border: dashed 2px #FF0004;
+	}
+</style>
+<title>福利彩票投注助手</title>
+</head>
+
+<body>
+<div>
+	<p style="text-align: center">福利彩票投注助手</p>
+	<p>彩票号码：
+	<input id="number" type="text" />
+	
+	<input id="bet" type="button" value="投注" onClick="betting()"/>
+	<input id="clear" type="button" value="清空" onClick="clean()"/>
+	</p>
+</div>
+<script type="text/javascript">
+	function betting(){
+		
+		var showNum=document.getElementById("number");
+		showNum.value = "";
+
+		for(var i=0;i<7;i++){
+		var num=Math.round(Math.random()*29+1);	
+		if(num<10){num="0"+num;}
+		showNum.value += num+" ";
+	    }
+
+	}	
+	function clean(){
+		var showNum=document.getElementById("number");
+		showNum.value = "";	
+	}
+</script>
+</body>
+</html>

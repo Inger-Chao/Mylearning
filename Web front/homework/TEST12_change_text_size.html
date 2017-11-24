@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>改变字体大小</title>
+</head>
+<body>
+<h3>用JS代码改变网页字体大小</h3>
+<p>设置字体大小：
+<a id="small" href="#" onClick="doZoom(9)">小</a>
+<a id="middle" href="#" onClick="doZoom(10.5)">中</a>
+<a id="large" href="#" onClick="doZoom(13)">大</a>
+</p>
+<div style="height: 200px;width: 600px;border: 2px solid #5E5DF5;background: #EBF2FF">
+	<p style="color: #ff0000;padding: 20px;line-height: 38px" id="zoom">JAVAScript是一种能让你的网页更加生动活泼的程式语言，也是目前网页设计中最容易学又方便的语言。</p>
+</div>
+<script type="text/javascript">
+function doZoom(size){
+document.getElementById('zoom').style.fontSize=size+'pt'
+}
+</script>
+</body>
+</html>

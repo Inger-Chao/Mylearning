@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+<body>
+<h1>计算1+2+3+4+5+...+N的和</h1>
+<p>
+	<input type="text" id="n" style="background: white;border: 0;" disabled="true" />
+	=
+	<input type="text" id="result" style="background: white;border: 0;width: 30px;" disabled="true" />
+</p>
+<script>
+	var n = parseInt(prompt("请输入一个值："));
+	var str = "";
+	var i = 0;
+	var sum=0;
+	var arr = new Array(n);
+	for(i = 0;i<n;i++){
+		arr[i] = i+1;
+		sum += arr[i];
+		str = arr.join("+");
+	}
+	document.getElementById("n").value=str;
+	document.getElementById("result").value=sum;
+</script>
+</body>
+</html>
