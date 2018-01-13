@@ -284,3 +284,75 @@ A3:
 CODE ENDS
 END START
 ```
+
+***递归函数与输出，看完上面在看这个大概率不考。***
+```
+;=====================================
+; Name : 递归函数，计算S在200以内的S=1+2X3+3X4+4X5+..+N(N+1)+..=，并输出S和N。
+;=====================================
+DATA SEGMENT
+	BUF DB 'S=1+2X3+3X4+4X5+..+N(N+1)+..=','$'
+	N DB 'N=',0,0,'$'
+	RES DW 4 DUP(0),'$'
+DATA ENDS
+CODE SEGMENT
+	ASSUME CS:CODE,DS:DATA ;通过assume关键字说明寄存器与程序间的关联
+START:
+	MOV AX,DATA
+	MOV DS,AX ;初始化DS
+	LEA DX,BUF ;取BUF有效地址放到DX寄存器中
+	MOV AH,09H 
+	INT 21H ;打印字符串
+	MOV DX,1
+	MOV BL,2
+NEXT:
+	MOV AL,BL 
+	INC BL ;BL++
+	MUL BL ;BL*AL -> AX
+	ADD DX,AX ;DX+AX -> AX
+	CMP AX,200 ;AX与200比较
+	JNA NEXT ;<=200，则跳转到NEXT继续执行NEXT
+	
+	MOV AX,BX
+	MOV CL,11
+	DIV CL
+	LEA DI,N
+	ADD DI,2
+	ADD AL,48
+	MOV [DI],AL
+	INC DI
+	ADD AH,48
+	MOV [DI],AH
+	
+	MOV CX,0004H 
+	LEA DI,RES ;取RES有效地址给DI
+	ADD DI,03H ;DI指向RES字符串第四个单元
+NEXT1:
+	MOV AX,DX
+	AND AX,000FH ;取AX最低四位
+	CMP AL,0AH ;区分是0-9还是A-F
+	JB NEXT2 ;<10是数字 跳转到NEXT2
+	ADD AL,07 ; >10 AL+07 -> AL
+NEXT2:
+	ADD AL,30H ;AL+30H -> AL ASCII码+48转换成数字
+	MOV [DI],AL ;AL的内容给DI指向的字符串单元
+	DEC DI ;DI-- -> DI
+	PUSH CX ;先保护cx
+	MOV CL,04 ;04放进CL中，CL控制逻辑移位位数
+	SHR DX,CL ;逻辑右移
+	POP CX
+	LOOP NEXT1 
+	LEA DX,RES ;打印字符串
+	MOV AH,09H 
+	INT 21H
+	
+	LEA DX,N
+	MOV AH,09H 
+	INT 21H ;打印字符串
+
+
+	MOV AX,4C00H ;结束程序
+	INT 21H
+CODE ENDS
+END START
+```
