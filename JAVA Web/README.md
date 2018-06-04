@@ -50,7 +50,7 @@ Servlet过滤器需要实现的三个方法：`init()``destory()``doFliter()`过
 
 ## EL和JSTL
 
-***EL:***`\${expression}`
+***EL***：`\${expression}`
 
 使用步骤：
 
