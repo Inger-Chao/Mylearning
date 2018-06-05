@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!--1.在web.xml中配置Servlet 注册servlet-->
+    <servlet>
+        <description>This is my first servlet</description>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.servlet.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/MyServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description>This is  Addressservlet</description>
+        <servlet-name>AddressServlet</servlet-name>
+        <servlet-class>com.servlet.AddressServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddressServlet</servlet-name>
+        <url-pattern>/AddressServlet</url-pattern>
+    </servlet-mapping>
+
+    <listener>
+        <listener-class>com.listener.UserInfoTrace</listener-class>
+    </listener>
+
+</web-app>
