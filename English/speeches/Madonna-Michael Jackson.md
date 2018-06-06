@@ -10,8 +10,6 @@
 
 >他在全世界的体育场演出，卖出了百万的唱片，和大臣、总统一起吃晚宴。女孩对他狂热，男生也爱他，所有人想像他那样跳舞。他看起来像是另一个世界的人——但他也只是个和我们一样的人类。像很多表演者一样，他很害羞，也缺乏安全感。我不能说我们是很好的朋友，但是在1991年我想试着了解他更多。我邀请他出去吃晚餐，我说："我请客，我开车——就我们俩"。
 
-​	He performed in soccer stadiums around the world, and sold hundreds of millions of records and dined with prime ministers and presidents. Girls fell in love with him, boys fell in love with him, everyone wanted to dance like him. He seemed otherworldly — but he was a human being. Like most performers he was shy and plagued with insecurities. I can't say we were great friends, but in 1991 I deceded I wanted to try to get to know him better. I asked him out to dinner, I said "My treat, I'll drive — just you and me."
-
 ​	He agreed and showed up to my house without any bodyguards. We drove to the restaurant in my car. It was dark out, but he was still wearing sunglasses. I said, "Michael, I feel like I'm talking to a limousine. Do you think you can take off your glasses so I can see your eyes?" He **paused for a moment** then he tossed the glasses out the window, looked at me with wink and a smile and said, "Can you see me now? Is that better?"
 
 >他同意了并且没有带任何保镖出现在我的门口。我们开我的车去了饭店。外面已经黑了然而他依然带着墨镜。我说：”Michael，我觉得我在和豪车说话。你能不能摘掉你的眼镜让我看看你的眼镜？“他停了一会然后把眼镜扔出了窗外，带着电眼和微笑看着我说：“你现在能看到我了吗？有没有好一点？”
