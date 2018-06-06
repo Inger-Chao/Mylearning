@@ -43,8 +43,8 @@ Take a little bit time of Friday afternoon, make yourself a three-category prior
 
 ***Ⅲ. There are 168 hours in a week and we can find time for what matters.***
 
-If you are working a full-time job, so 40 hours a week, sleeping 8 hours a night, so 50 hours to week, that leaves 72 hours for other things. 
-A data example: There was once a study comparing people's estimated work weeks with time diaries and they found that people claiming  75-plus-hour work weeks were off by about 25 hours.
+If you are working a full-time job, so 40 hours a week, sleeping 8 hours a night, so 50 hours to week, that leaves 72 hours for other things. <br>
+A data example: There was once a study comparing people's estimated work weeks with time diaries and they found that people claiming  75-plus-hour work weeks were off by about 25 hours.<br>
 We can find time for what matters to you but when most of us have bits of time, we pull out the phone, put around the house or watch TV.
 
 ***Ending:***
