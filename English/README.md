@@ -6,11 +6,11 @@
 
 | Title      |     Category |   Comment   |
 | :-------- | --------:| :------: |
-|  [Madonna's speech for Michael Jackson]()   |   [speeches]() |    |
-| [Time Management of Writing Material]()| [speeches]() | [live video](http://www.miaopai.com/show/AqCqT6cLMGdI1pD3Ijcre8-pwrol9HEYYxBBNw__.htm)|
+|  [Madonna's speech for Michael Jackson](https://github.com/Inger-Jo/MyLearning/blob/master/English/speeches/Madonna-Michael%20Jackson.md)   |   [speeches](https://github.com/Inger-Jo/MyLearning/blob/master/English/speeches) |    |
+| [Time Management of Writing Material](https://github.com/Inger-Jo/MyLearning/blob/master/English/speeches/Time%20Management%20of%20Writing%20Material.md)| [speeches](https://github.com/Inger-Jo/MyLearning/blob/master/English/speeches) | [live video](http://www.miaopai.com/show/AqCqT6cLMGdI1pD3Ijcre8-pwrol9HEYYxBBNw__.htm)|
 
 | Title|     Category|   Comment|
 | :-------- | --------:| :------: |
-| [Will You Be There - Micheal Jackson]|   [songs]()|  |
+| [Will You Be There - Micheal Jackson](https://github.com/Inger-Jo/MyLearning/blob/master/English/songs/Will%20You%20Be%20There%20-%20Micheal%20Jackson.md)|   [songs]((https://github.com/Inger-Jo/MyLearning/blob/master/English/songs)|  |
 
 
