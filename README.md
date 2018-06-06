@@ -1,5 +1,10 @@
-﻿学习笔记
+Inger Notes 
 ============
+
+> I'm no one but I'm goint to be someone.
+>
+> This is my learning notes in the North University of China.
+
 ### Java
 
 * [内部类](https://github.com/Joki-memeda/MyLearning/blob/master/Java/内部类.md)
