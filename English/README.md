@@ -8,6 +8,7 @@
 | :-------- | --------:| :------: |
 |  [Madonna's speech for Michael Jackson](https://github.com/Inger-Jo/MyLearning/blob/master/English/speeches/Madonna-Michael%20Jackson.md)   |   [speeches](https://github.com/Inger-Jo/MyLearning/blob/master/English/speeches) |    |
 | [Time Management of Writing Material](https://github.com/Inger-Jo/MyLearning/blob/master/English/speeches/Time%20Management%20of%20Writing%20Material.md)| [speeches](https://github.com/Inger-Jo/MyLearning/blob/master/English/speeches) | [live video](http://www.miaopai.com/show/AqCqT6cLMGdI1pD3Ijcre8-pwrol9HEYYxBBNw__.htm)|
+|[How to Take Every Step of Life Property?](https://github.com/Inger-Jo/MyLearning/blob/master/English/speeches/How%20to%20take%20every%20step%20of%20life%3F.md) | [speeches](https://github.com/Inger-Jo/MyLearning/blob/master/English/speeches) | [live video](http://www.miaopai.com/show/P1NrcMpl24gcl70nEiygarpGOxz~M66Kj5sejg__.htm ) |
 
 | Title|     Category|   Comment|
 | :-------- | --------:| :------: |
