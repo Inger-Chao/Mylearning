@@ -1,6 +1,6 @@
 ## There is more to life than being happy.
 
-Even though life is getting objectively better by nearly every conceivable standard, more people feel hopeless, depressed and alone. There's an emptiness gnawing away at people, and you don't have to be clinically depressed to fell it.<br>
+Even though life is getting objectively better by nearly every conceivable standard, more people feel hopeless, depressed and alone. <br>There's an emptiness gnawing away at people, and you don't have to be clinically depressed to fell it.<br>
 What predicts this despair is not a lack of happiness but a lack of meaning in life.
 
 ***Ⅰ. Belonging***<br>
