@@ -109,6 +109,6 @@ Inger Notes
 * [UML类图的阅读](https://github.com/Inger-Jo/MyLearning/blob/master/Others/UML%E7%B1%BB%E5%9B%BE%E7%9A%84%E9%98%85%E8%AF%BB.md)
 * [python脚本爬贴吧图片](https://github.com/Inger-Jo/MyLearning/blob/master/Others/%E8%AE%B0%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%89%B9%E9%87%8F%E6%8A%93%E5%8F%96%E7%BD%91%E9%A1%B5%E5%9B%BE%E7%89%87%E7%9A%84%E7%BB%8F%E5%8E%86.md)
 * [电竞社秩序册](https://github.com/Inger-Jo/MyLearning/blob/master/Others/%E7%94%B5%E7%AB%9E%E7%A4%BE%E7%A4%BE%E5%9B%A2%E7%A7%A9%E5%BA%8F%E5%86%8C.md)
-* [考研复习](./others/review)
+* [考研复习](https://github.com/Inger-Jo/Mylearning/blob/master/Others/review)
   * 数据结构
-    * [线性表](./others/review)
+    * [线性表](https://github.com/Inger-Jo/Mylearning/blob/master/Others/review/线性表)
