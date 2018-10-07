@@ -101,7 +101,12 @@ Inger Notes
 | :----------------------------------------------------------- | -----------------------------------------------------------: | :-----: |
 | [Will You Be There - Micheal Jackson](https://github.com/Inger-Jo/MyLearning/blob/master/English/songs/Will%20You%20Be%20There%20-%20Micheal%20Jackson.md) | [songs](https://github.com/Inger-Jo/MyLearning/blob/master/English/songs) |         |
 
+***[803部分纠错](https://github.com/Inger-Jo/MyLearning/tree/master/803)***
 
+- [计算机组成原理](./803/computer-organization)
+- [数据结构](./803/data-structure)
+- [操作系统](./803/operating-system)
+- [计算机网络](./803/network)
 
 ***[Others](https://github.com/Inger-Jo/MyLearning/tree/master/Others)***
 
