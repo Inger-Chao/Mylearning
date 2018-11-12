@@ -1,6 +1,5 @@
-## 计算机存储系统：CPU-Cache-主存-辅助存储器
 
-Table of Contents
+计算机存储系统：CPU-Cache-主存-辅助存储器
 =================
 
 * [计算机存储系统：CPU\-Cache\-主存\-辅助存储器](#%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9Fcpu-cache-%E4%B8%BB%E5%AD%98-%E8%BE%85%E5%8A%A9%E5%AD%98%E5%82%A8%E5%99%A8)
