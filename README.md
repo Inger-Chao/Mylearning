@@ -46,22 +46,6 @@ Inger Notes
 * [MVC](https://github.com/Inger-Jo/MyLearning/blob/master/DesignPattern/%E7%BB%8F%E5%85%B8MVC.md)
 * [MVP和MVVM](https://github.com/Inger-Jo/MyLearning/blob/master/Android%E6%9E%B6%E6%9E%84/MVP%E5%92%8CMVVM%E6%A1%86%E6%9E%B6.md)
 
-***[Computer Network](https://github.com/Inger-Jo/MyLearning/tree/master/network)***
-
-* [Overview](https://github.com/Inger-Jo/MyLearning/blob/master/network/1.overview/README.md)
-
-***[Operating System](https://github.com/Inger-Jo/MyLearning/tree/master/OS)***
-
-* [实验1：生产者消费者算法](https://github.com/Inger-Jo/MyLearning/blob/master/OS/Producer-consumer.c)
-* [实验2：银行家算法](https://github.com/Inger-Jo/MyLearning/blob/master/OS/banker.cpp)
-* [实验3：页面置换：FIFO&LRU算法](https://github.com/Inger-Jo/MyLearning/blob/master/OS/FIFO.c)
-* 期末复习笔记
-  * [概论](https://github.com/Inger-Jo/MyLearning/blob/master/OS/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%A6%82%E8%AE%BA.md)
-  * [CPU管理篇](https://github.com/Inger-Jo/MyLearning/blob/master/OS/CPU/README.md)
-  * [存储器管理篇](https://github.com/Inger-Jo/MyLearning/blob/master/OS/%E5%AD%98%E5%82%A8%E5%99%A8%E7%AE%A1%E7%90%86%E7%AF%87/README.md)
-  * [输入输出系统](https://github.com/Inger-Jo/MyLearning/blob/master/OS/IO/README.md)
-  * [文件管理](https://github.com/Inger-Jo/MyLearning/tree/master/OS/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86)
-
 ***[微机原理/汇编程序设计](https://github.com/Inger-Jo/MyLearning/tree/master/assembly)***
 
 * [寄存器](https://github.com/Joki-memeda/MyLearning/blob/master/assembly/%E5%AF%84%E5%AD%98%E5%99%A8.md)
