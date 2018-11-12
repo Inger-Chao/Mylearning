@@ -57,7 +57,7 @@ Cache地址映射指的是**把主存地址空间映射到Cache地址空间**，
 
 这样在映射方式给出后，CPU便可以通过规定的映射方式，将主存地址转化为Cache地址从而查找Cache内的数据。
 
-
+![Cache](./computer-organization/assets/3-5Cache地址映射结构.JPEG)
 
 - 直接映射：主存中的某块数据块只能装入到Cache中的某一个位置。
   - 主存地址结构：`主存字块标记 + Cache块地址 + 块内地址`
