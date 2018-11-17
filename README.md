@@ -1,15 +1,25 @@
 Inger Notes 
 ============
 
-> I'm no one but I'm goint to be someone.
->
-> This is my learning notes in the North University of China.
->
-> I wish that something in this note could helpful for you.
->
-> Please cantact me if there are problems.
+> Keep moving.
 >
 > Email: 396558528@qq.com
+
+***[803笔记](https://github.com/Inger-Jo/MyLearning/tree/master/803)***
+
+- 🎨[计算机组成原理](./803/computer-organization)
+  - 🎨[计算机存储系统-CPU-Cache-主存-辅助存储器](./803/计算机存储系统-CPU-Cache-主存-辅助存储器.md)
+- [数据结构](./803/data-structure)
+- 🎨[操作系统](./803/operating-system)
+  - [实验1：生产者消费者算法](./803/operating-system/Producer-consumer.c)
+  - [实验2：银行家算法](./803/operating-system/banker.cpp)
+  - [实验3：页面置换：FIFO&LRU算法](./803/operating-system/FIFO.c)
+  - 💩期末复习笔记
+    - [CPU管理篇](https://github.com/Inger-Jo/MyLearning/blob/master/803/operating-system/CPU/README.md)
+    - [存储器管理篇](https://github.com/Inger-Jo/MyLearning/blob/master/803/operating-system/%E5%AD%98%E5%82%A8%E5%99%A8%E7%AE%A1%E7%90%86%E7%AF%87/README.md)
+    - [输入输出系统](https://github.com/Inger-Jo/MyLearning/blob/master/803/operating-system/IO/README.md)
+    - [文件管理](https://github.com/Inger-Jo/MyLearning/blob/master/803/operating-system/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86)
+- [计算机网络](./803/network)
 
 ***[JAVA](https://github.com/Inger-Jo/MyLearning/tree/master/Java)***
 
@@ -20,7 +30,7 @@ Inger Notes
     * [Java内存区域](https://github.com/Inger-Jo/MyLearning/blob/master/Java/JVM/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F.md)
 * [JAVA Reflection](https://github.com/Inger-Jo/MyLearning/tree/master/Java/Java%20Reflection)
 
-***[设计模式](https://github.com/Inger-Jo/MyLearning/tree/master/DesignPattern)***
+ ***[设计模式](https://github.com/Inger-Jo/MyLearning/tree/master/DesignPattern)***
 
 * 创建型模式
     * [单例模式(Singleton Pattern)](https://github.com/Inger-Jo/MyLearning/blob/master/DesignPattern/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
