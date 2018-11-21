@@ -27,7 +27,6 @@ __传输控制协议__ 是一种面向连接的、可靠的基于字节流的传
 
 ### TCP报文
 
-![这里写图片描述](http://img.blog.csdn.net/20170529143355269?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSm9raTIzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 * 序号：4bytes 文本本段所发送的数据的第一字节的序号
 * 确认序号：4bytes 期望下次接收的数据的第一字节的编号。表示该编号以前的数据已安全接受
 * 数据偏移：4bits 报文段首部的长度
@@ -43,8 +42,7 @@ __传输控制协议__ 是一种面向连接的、可靠的基于字节流的传
 * 紧急指针：2bytes 指明本报文段中紧急数据的最后一个字节的序号 和URG配合使用
 * 选项：长度可变，若该字段长度不够4bytes，填充对齐
 ### TCP连接的建立和释放
-![这里写图片描述](http://img.blog.csdn.net/20170529155549607?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSm9raTIzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-#### 建立：三次握手
+#### 
 >A->B发送请求报文段：SYN = 1，SEQ =  x;
 
 >B->A发送响应报文段：SYN = 1，ACK = x+1，SEQ = y;
