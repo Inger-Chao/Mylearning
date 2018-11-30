@@ -95,24 +95,6 @@ Inger Notes
 | :----------------------------------------------------------- | -----------------------------------------------------------: | :-----: |
 | [Will You Be There - Micheal Jackson](https://github.com/Inger-Jo/MyLearning/blob/master/English/songs/Will%20You%20Be%20There%20-%20Micheal%20Jackson.md) | [songs](https://github.com/Inger-Jo/MyLearning/blob/master/English/songs) |         |
 
-***[803笔记](https://github.com/Inger-Jo/MyLearning/tree/master/803)***
-
-- [计算机组成原理](./803/computer-organization)
-  - [计算机存储系统-CPU-Cache-主存-辅助存储器](./803/计算机存储系统-CPU-Cache-主存-辅助存储器.md)
-- [数据结构](./803/data-structure)
-- [操作系统](./803/operating-system)
-  - [实验1：生产者消费者算法](./803/operating-system/Producer-consumer.c)
-  - [实验2：银行家算法](./803/operating-system/banker.cpp)
-  - [实验3：页面置换：FIFO&LRU算法](./803/operating-system/FIFO.c)
-  - 期末复习笔记
-    - [概论](https://github.com/Inger-Jo/MyLearning/blob/master/803/operating-system/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%A6%82%E8%AE%BA.md)
-    - [CPU管理篇](https://github.com/Inger-Jo/MyLearning/blob/master/803/operating-system/CPU/README.md)
-    - [存储器管理篇](https://github.com/Inger-Jo/MyLearning/blob/master/803/operating-system/%E5%AD%98%E5%82%A8%E5%99%A8%E7%AE%A1%E7%90%86%E7%AF%87/README.md)
-    - [输入输出系统](https://github.com/Inger-Jo/MyLearning/blob/master/803/operating-system/IO/README.md)
-    - [文件管理](https://github.com/Inger-Jo/MyLearning/blob/master/803/operating-system/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86)
-
-- [计算机网络](./803/network)
-
 ***[Others](https://github.com/Inger-Jo/MyLearning/tree/master/Others)***
 
 * [opencv入门的几个小程序](https://github.com/Inger-Jo/MyLearning/tree/master/opencv)
